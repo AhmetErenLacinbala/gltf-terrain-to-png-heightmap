@@ -1,10 +1,8 @@
 const fs = require('fs');
 const { PNG } = require('pngjs');
 
-const gltfFilePath = './files/sample.gltf';
 
-
-gltfToPng(gltfFilePath, "./files/sample.png");
+gltfToPng("./files/sample.gltf", "./files/sample.png");
 
 function sortFloat(a, b) { return a - b; }
 
@@ -79,7 +77,5 @@ function gltfToPng(gltfPath, pngPath) {
         png.pack().pipe(fs.createWriteStream(pngPath)).on('finish', () => {
             console.log(`PNG file created: ${pngPath} 🥰`);
         });
-
-        console.log(dataArr);
     })
 }
