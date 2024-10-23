@@ -11,5 +11,5 @@ Nothing fancy. Turn your gltf terrain file to a png grayscale heightmap.
 ## API Refference
 There is no API reference lmao. just use following command.
 ```
-node node.js <input gltf> <output png (optional)>
+node node.js <path/to/your/gltf> <path/to/your/desired/png/output/but/this/is/optional>
 ```
