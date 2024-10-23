@@ -9,7 +9,6 @@ if (process.argv[2]) {
 gltfToPng(process.argv[2] || "./files/sample.gltf", process.argv[3] || cliOutput || "./files/output.png");
 
 function sortFloat(a, b) { return a - b; }
-console.log(process.argv);
 
 function gltfToPng(gltfPath, pngPath) {
     fs.readFile(gltfPath, 'utf8', (err, data) => {
