@@ -8,7 +8,7 @@ Nothing fancy. Turn your gltf terrain file to a png grayscale heightmap.
 - Export only the terrain; the file must contain only the terrain.
 - Terrain has to be a rectangle.
 
-## API Refference
+## API Reference
 There is no API reference lmao. just use following command.
 ```
 node node.js <path/to/your/gltf> <path/to/your/desired/png/output/but/this/is/optional>
